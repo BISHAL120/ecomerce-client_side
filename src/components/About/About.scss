@@ -1,0 +1,40 @@
+@import "../../css-config/mixins.scss";
+
+.aboutus {
+    padding: 40px 10px;
+
+    @include md {
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+
+    h2 {
+        font-size: 24px;
+
+        @include md {
+            margin-bottom: 100px;
+            font-size: 42px;
+        }
+    }
+
+    .block {
+        margin: 20px auto;
+
+        h3 {
+            font-size: 16px;
+
+            @include md {
+                font-size: 24px;
+            }
+        }
+
+        p {
+            font-size: 12px;
+
+            @include md {
+                font-size: 16px;
+                padding-top: 10px;
+            }
+        }
+    }
+}
